@@ -1,0 +1,27 @@
+{
+  "name": "kelolakos",
+  "version": "1.0.0",
+  "description": "KelolaKos - Aplikasi web manajemen kos (mobile-first PWA)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "dev": "node --no-warnings --watch server.js"
+  },
+  "keywords": [
+    "kos",
+    "boarding-house",
+    "pwa",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
